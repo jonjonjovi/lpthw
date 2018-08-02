@@ -26,4 +26,4 @@ iq = divide(100,2)
 
 print("Here is a puzzle.")
 what = add(age,subtract(height,multiply(weight,divide(iq,2))))
-print("That becomes: ",what "can you di it by hand")
+print("That becomes:", what, "can you do it by hand")
