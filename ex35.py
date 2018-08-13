@@ -20,8 +20,9 @@ def bear_room():
     print("The fat bear is in front of another door")
     print("How are you going to move the bear?")
     bear_moved = False
-    choice = input("> ")
+
     while True:
+        choice = input("> ")
         if choice == "take honey":
             dead("the bear slaps your face off")
         elif choice == "taunt bear" and not bear_moved:
